@@ -15,13 +15,12 @@ function searchCountries() {
 			});
 	var name = $.ajax({
 				url: urlName + countryName,
-				method: 'GET',
-				success: showCountriesList
+				method: 'GET'
 			});
 	};
 
 function showCountryInfo(resp) {
-	// countriesList.empty();
+	countriesList.empty();
 	resp.forEach(function(item) {
 		$('<li>').text(item.capital + ' (' + item.name + ')').appendTo(countryInfo);		
 	});
