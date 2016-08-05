@@ -14,13 +14,14 @@ function searchCountries() {
 			});
 	var name = $.ajax({
 				url: urlName + countryName,
-				method: 'GET'
+				method: 'GET',
+				success: showCountryInfo
 			});
 	};
 
 function showCountryInfo(resp) {
 	countryInfo.empty();
 	resp.forEach(function(item) {
-		$('<li>').text(item.capital + ' (' + item.name + ')').appendTo(countryInfo);		
+		$('<li>').text(item.name + ' (' + item.capital + ')').appendTo(countryInfo);		
 	});
 }
