@@ -1,14 +1,14 @@
 # Country-Search
-Simple country search projekt. jQuery, Ajax, REST. Check [Demo](http://codepen.io/RoHell/full/dXJqAx).
+Simple country search projekt. jQuery, Ajax, REST. Check [Demo](http://codepen.io/RoHell/pen/RRZxZK).
 
-![Country Search](http://i.imgur.com/NQXaQnw.png?1)
+![Country Search] (https://scr.hu/vK4MzD)
 
 ## Installation
 1. Clone the repo: `git clone https://github.com/RoHell/Country-Search.git`
-2. Run `npm install` to download dependencies (grunt)
+2. Run `npm install` to download dependencies (grunt-contrib-watch, grunt-sass, grunt-browser-sync)
 
 ## Usage
-Create column for your tasks and pin some cards to it. Drag and drop functionality.
+Type desired country name to input field.
 
 ## To Do
 1. Fit `placeholder` height to dragged element height
