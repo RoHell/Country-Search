@@ -1,7 +1,7 @@
 # Country-Search
 Simple country search projekt. jQuery, Ajax, REST. Check [Demo](http://codepen.io/RoHell/pen/RRZxZK).
 
-![Country Search] (https://scr.hu/vK4MzD)
+![Country Search](https://scr.hu/vK4MzD)
 
 ## Installation
 1. Clone the repo: `git clone https://github.com/RoHell/Country-Search.git`
