@@ -1,6 +1,5 @@
 var urlName = 'https://restcountries.eu/rest/v1/name/';
 var urlCapital = 'https://restcountries.eu/rest/v1/capital/';
-var countriesList = $('#countries');
 var countryInfo = $('#country-info');
 
 $('#search').click(searchCountries);
@@ -20,7 +19,7 @@ function searchCountries() {
 	};
 
 function showCountryInfo(resp) {
-	countriesList.empty();
+	countryInfo.empty();
 	resp.forEach(function(item) {
 		$('<li>').text(item.capital + ' (' + item.name + ')').appendTo(countryInfo);		
 	});
